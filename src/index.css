@@ -42,3 +42,7 @@ code {
 .book-title {
   display: inline;
 }
+
+.book-category {
+  color: #9cb9f1;
+}
