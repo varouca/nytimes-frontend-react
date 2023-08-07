@@ -7,7 +7,7 @@ const Bestsellers = () => {
 
   useEffect(() => {
     const apiKey = "Wge1AsphUAfUuZ9XfB47akO8AmIcbeOa";
-    const apiUrl = `https://api.nytimes.com/svc/books/v3/lists.json?list=Health&api-key=${apiKey}`;
+    const apiUrl = `https://api.nytimes.com/svc/books/v3/lists.json?list=hardcover-fiction&api-key=${apiKey}`;
 
     axios
       .get(apiUrl)
@@ -17,7 +17,7 @@ const Bestsellers = () => {
 
   return (
     <div>
-      <h1 className="page-title">NY Times Bestsellers - Health 👩🏻‍⚕️</h1>
+      <h1 className="page-title">NY Times Bestsellers - Fiction 👨‍🚀</h1>
 
       <div className="container">
         <div className="row row-cols-1 row-cols-md-4 g-3">
