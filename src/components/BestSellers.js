@@ -11,7 +11,11 @@ const Bestsellers = () => {
 
     axios
       .get(apiUrl)
-      .then((response) => setBestsellersList(response.data.results))
+      .then((response) =>
+        setBestsellersList(
+          response.data.results.sort((a, b) => a.rank - b.rank)
+        )
+      )
       .catch((error) => console.error(error));
   }, []);
 
