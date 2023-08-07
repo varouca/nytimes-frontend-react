@@ -17,6 +17,8 @@ body {
   background-color: #343a40;
   color: #f8f9fa;
   border-color: #f8f9fa;
+  --bs-btn-hover-bg: #2d2f32;
+  --bs-btn-hover-border-color: #465470;
 }
 
 /* Active state for buttons */
