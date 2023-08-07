@@ -17,7 +17,7 @@ const Bestsellers = () => {
 
   return (
     <div>
-      <h1 className="page-title">Bestsellers Lists</h1>
+      <h1 className="page-title">NY Times Bestsellers - Health 👩🏻‍⚕️</h1>
 
       <div className="container">
         <div className="row row-cols-1 row-cols-md-4 g-3">
